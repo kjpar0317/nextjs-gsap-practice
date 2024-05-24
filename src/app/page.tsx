@@ -1,5 +1,6 @@
 import TestCard from "@/components/card/TestCard";
 import DivBorderLine from "@/components/animation/DivBorderLine";
+import Camera from "@/components/3d/Camera";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <DivBorderLine>
         <TestCard />
       </DivBorderLine>
+      <Camera />
     </main>
   );
 }

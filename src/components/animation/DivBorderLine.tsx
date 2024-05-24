@@ -61,7 +61,7 @@ export default function DivBorderLine({
 
   return (
     <div ref={container}>
-      <div className="animation_line absolute w-5 h-1 bg-gradient-to-l from-primary to-primary-foreground before:origin-top-center before:translate-x-0 before:bg-primary before:translate-y-0 lightening drop-shadow-2xl"></div>
+      <div className="animation_line absolute w-8 h-0.5 bg-gradient-to-l from-primary to-primary-foreground before:origin-top-center before:translate-x-0 before:bg-primary before:translate-y-0 lightening-md drop-shadow-4xl shadow-2xl"></div>
       <div className="animation_path">{children}</div>
     </div>
   );
